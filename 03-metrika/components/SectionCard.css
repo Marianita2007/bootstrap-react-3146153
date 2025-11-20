@@ -1,0 +1,58 @@
+.tile {
+  height: 120px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+
+.tile-big {
+  height: 260px;
+}
+
+
+.tile-wide {
+  height: 120px;
+}
+
+
+.tile-green {
+  background: #7ab29f;
+}
+
+.tile-lightgreen {
+  background: #75b7a7;
+}
+
+.tile-blue {
+  background: #4ca0c3;
+  width: auto;
+  height: 17rem;
+}
+
+.tile-pink {
+  background: #cc5b8b;
+}
+
+.tile-red {
+  background: #b95645;
+  margin-top: -8.5rem;
+}
+
+.tile-orange {
+  background: #c5743c;
+  margin-top: -8.5rem;
+  margin-right: -25rem;
+  margin-left: 25rem;
+}
+
+.tile-yellow {
+  background: #d89d3c;
+  margin-top: -8.5rem;
+  margin-right: -25rem;
+  margin-left: 25rem;
+}
