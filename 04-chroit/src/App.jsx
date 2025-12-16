@@ -1,35 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import Home from "./components/Home";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <Home nombre="IR AL COMIC INTERACTIVO"
+      texto="En un mundo colapsado por el miedo y el misterio del cielo, cuatro figuras 
+                emergen con destinos entrelazados: una protectora marcada por la pérdida, 
+                un líder fanático que predica el caos, un joven en busca de propósito y 
+                una presencia enigmática que desafía toda lógica. Esta imagen retrata a los 
+                protagonistas de una historia donde la supervivencia es solo el principio."
+      />
+      
+    </div>
+  );
 }
 
-export default App
+export default App;
