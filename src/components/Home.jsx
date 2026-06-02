@@ -89,7 +89,7 @@ function Home({texto, titulo}) {
           </h2>
 
           <p className="section-text">
-            En CHROIT buscamos transformar el tiempo en experiencias significativas,
+            En CHROIT😍😍 buscamos transformar el tiempo en experiencias significativas,
             potenciando la creatividad y el diseño como herramientas para dar vida a historias
             que conectan, inspiran y trascienden.
           </p>
